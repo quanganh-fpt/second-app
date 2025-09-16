@@ -1,15 +1,14 @@
-import React from "react";
-import PlayersList from "./components/Players";
-
+import "./App.css";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+import Navigation from "./components/Navigation";
 function App() {
   return (
     <div className="App">
-      <h1>
-        <center>Players List</center>
-      </h1>
-      <PlayersList />
+      <Navigation />
+      <Main />
+      <Footer />
     </div>
   );
 }
-
 export default App;
